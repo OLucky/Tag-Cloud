@@ -5,7 +5,7 @@ import {settingsObject} from "./data/settingsObject";
 
 import {CHANGE_SETTING, CHANGE_COLOR, ADD_COLOR, REMOVE_COLOR} from "./actions";
 
-const tags = (state = tagsArray, action) => {
+export const tags = (state = tagsArray, action) => {
 	switch (action.type) {
 	default: {
 		return state;
@@ -13,7 +13,7 @@ const tags = (state = tagsArray, action) => {
 	}
 };
 
-const settings = (state = settingsObject, action) => {
+export const settings = (state = settingsObject, action) => {
 	switch (action.type) {
 	case CHANGE_SETTING: {
 		const {setting} = action;

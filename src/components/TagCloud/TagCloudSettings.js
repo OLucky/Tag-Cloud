@@ -18,7 +18,8 @@ class TagCloudSettings extends Component {
 	}
 
 	displayColors = colors => {
-		const {numberOfPages, onColorRemove} = this.props;
+		const {settings, onColorRemove} = this.props;
+		const {numberOfPages} = settings;
 
 		return colors.map((color, index) => (
 			<div key={color + index}>
@@ -55,8 +56,7 @@ TagCloudSettings.propTypes = {
 	onColorAdd: PropTypes.func.isRequired,
 	onColorChange: PropTypes.func.isRequired,
 	onColorRemove: PropTypes.func.isRequired,
-	onSettingChange: PropTypes.func.isRequired,
-	numberOfPages: PropTypes.number.isRequired,
+	onSettingChange: PropTypes.func.isRequired
 };
 
 export default TagCloudSettings;
