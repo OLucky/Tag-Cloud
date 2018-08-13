@@ -7,7 +7,7 @@
     "start": "webpack-serve",
     "build": "webpack -p --progress --env",
     "analyze": "cross-env ANALYZE_BUNDLE=true webpack -p --progress",
-    "test": "jest --coverage"
+    "test": "jest"
   },
   "author": "Arounda",
   "license": "MIT",
