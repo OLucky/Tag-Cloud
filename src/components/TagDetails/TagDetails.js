@@ -30,7 +30,7 @@ class TagDetails extends Component {
 
 TagDetails.propTypes = {
 	tag: PropTypes.object.isRequired,
-	history: PropTypes.object.isRequired,
+	history: PropTypes.object,
 	settings: PropTypes.object.isRequired
 };
 

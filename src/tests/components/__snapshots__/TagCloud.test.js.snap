@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagCloud component renders correctly with children 1`] = `
+<div
+  class="container tag-cloud"
+>
+  <h1
+    class="tag-cloud_title"
+  >
+    Tag Cloud
+  </h1>
+  <div
+    class="tag-cloud_content"
+  >
+    <a
+      class="tag-cloud_content_item"
+      href="/1751295897__Odessa"
+    >
+      <span
+        style="font-size:16px;color:#800000"
+      >
+        Odessa
+      </span>
+    </a>
+  </div>
+  <div
+    class="tag-cloud_settings"
+  >
+    <h2>
+      Tag Cloud Settings
+    </h2>
+    <div
+      class="tag-cloud_settings_item"
+    >
+      <p>
+        Minimum font size
+      </p>
+      <input
+        max="160"
+        min="1"
+        type="number"
+        value="16"
+      />
+    </div>
+    <div
+      class="tag-cloud_settings_item"
+    >
+      <p>
+        Maximum font size
+      </p>
+      <input
+        min="16"
+        type="number"
+        value="160"
+      />
+    </div>
+    <div>
+      <input
+        type="color"
+        value="#000000"
+      />
+      <button
+        class="tag-cloud_settings_remove-color-btn"
+      >
+        Remove Color
+      </button>
+    </div>
+    <div>
+      <input
+        type="color"
+        value="#0000FF"
+      />
+      <button
+        class="tag-cloud_settings_remove-color-btn"
+      >
+        Remove Color
+      </button>
+    </div>
+    <div>
+      <input
+        type="color"
+        value="#FF00FF"
+      />
+      <button
+        class="tag-cloud_settings_remove-color-btn"
+      >
+        Remove Color
+      </button>
+    </div>
+    <div>
+      <input
+        type="color"
+        value="#008000"
+      />
+      <button
+        class="tag-cloud_settings_remove-color-btn"
+      >
+        Remove Color
+      </button>
+    </div>
+    <div>
+      <input
+        type="color"
+        value="#800000"
+      />
+      <button
+        class="tag-cloud_settings_remove-color-btn"
+      >
+        Remove Color
+      </button>
+    </div>
+    <div>
+      <input
+        type="color"
+        value="#000080"
+      />
+      <button
+        class="tag-cloud_settings_remove-color-btn"
+      >
+        Remove Color
+      </button>
+    </div>
+    <div>
+      <input
+        type="color"
+        value="#808000"
+      />
+      <button
+        class="tag-cloud_settings_remove-color-btn"
+      >
+        Remove Color
+      </button>
+    </div>
+    <div>
+      <input
+        type="color"
+        value="#800080"
+      />
+      <button
+        class="tag-cloud_settings_remove-color-btn"
+      >
+        Remove Color
+      </button>
+    </div>
+    <div>
+      <input
+        type="color"
+        value="#C0C0C0"
+      />
+      <button
+        class="tag-cloud_settings_remove-color-btn"
+      >
+        Remove Color
+      </button>
+    </div>
+    <div>
+      <input
+        type="color"
+        value="#008080"
+      />
+      <button
+        class="tag-cloud_settings_remove-color-btn"
+      >
+        Remove Color
+      </button>
+    </div>
+    <div>
+      <input
+        type="color"
+        value="#FF6347"
+      />
+      <button
+        class="tag-cloud_settings_remove-color-btn"
+      >
+        Remove Color
+      </button>
+    </div>
+    <button
+      class="tag-cloud_settings_add-color-btn"
+    >
+      Add Color
+    </button>
+  </div>
+</div>
+`;

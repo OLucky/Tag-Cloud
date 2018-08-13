@@ -24,7 +24,7 @@ class TagCloudSettings extends Component {
 		return colors.map((color, index) => (
 			<div key={color + index}>
 				<input onChange={event => this.colorChangeHandler(event, index)} type="color" value={color} />
-				<button disabled={colors.length <= numberOfPages} onClick={() => onColorRemove(index)}>Remove Color</button>
+				<button className="tag-cloud_settings_remove-color-btn" disabled={colors.length <= numberOfPages} onClick={() => onColorRemove(index)}>Remove Color</button>
 			</div>
 		));
 	}
@@ -45,7 +45,7 @@ class TagCloudSettings extends Component {
 					<input type="number" onChange={event => this.settingChangeHandler(event, "maxFontSize")}  value={maxFontSize} min={minFontSize}/>
 				</div>
 				{this.displayColors(colors)}
-				<button onClick={onColorAdd}>Add Color</button>
+				<button className="tag-cloud_settings_add-color-btn" onClick={onColorAdd}>Add Color</button>
 			</div>
 		);
 	}
