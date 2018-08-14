@@ -28,7 +28,10 @@ module.exports = {
 	},
 	plugins: [
 		new CleanWebpackPlugin(["dist"]),
-		new CopyWebpackPlugin([{from: path.join(__dirname, "src/static"), to: path.join(__dirname, "dist")}]),
+		new CopyWebpackPlugin([{
+			from: path.join(__dirname, "src/static"), 
+			to: path.join(__dirname, "dist"),
+			ignore: ["placeholder.txt"]}]),
 		new BundleAnalyzerPlugin({analyzerMode: process.env.ANALYZE_BUNDLE ? "server" : "disabled"}),
 		new MiniCssExtractPlugin({
 			filename: "styles.css"

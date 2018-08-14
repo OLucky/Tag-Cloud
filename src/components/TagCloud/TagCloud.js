@@ -8,7 +8,7 @@ class TagCloud extends Component {
 
 	generateItems = (tags, settings) => {
 		const maxScore = Math.max.apply(Math, tags.map(item => item.sentimentScore));
-		const minScore = Math.max.apply(Math, tags.map(item => item.sentimentScore));
+		const minScore = Math.min.apply(Math, tags.map(item => item.sentimentScore));
 		const {colors} = settings;
 
 		const minFontSize = parseInt(settings.minFontSize);
