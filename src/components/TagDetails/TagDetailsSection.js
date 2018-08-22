@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 class TagDetailsSection extends Component {
 
 	generateItems = (labels, data, colors) => {
-		const maxValue = Math.max.apply(Math, labels.map(itemLabel => data[itemLabel]));
+		const maxValue = Math.max(...labels.map(itemLabel => data[itemLabel]));
 
 		return labels.map((itemLabel, index) => {
 			const itemValue = data[itemLabel];
